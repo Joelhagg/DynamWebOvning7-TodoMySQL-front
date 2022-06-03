@@ -1,0 +1,22 @@
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  height: 100%;
+  background: rgb(140,171,139);
+  background: linear-gradient(0deg, rgba(140,171,139,1) 0%, rgba(221,153,232,1) 100%);
+}
+
+#container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#todoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+
+}
